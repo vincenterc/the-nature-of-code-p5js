@@ -3,7 +3,7 @@ class Mover {
     this.location = createVector(width / 2, height / 2);
     this.velocity = createVector();
     this.acceleration = createVector();
-    this.topSpeed = 10;
+    this.topSpeed = 5;
   }
 
   update() {
