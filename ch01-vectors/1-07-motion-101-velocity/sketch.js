@@ -2,7 +2,6 @@ let mover;
 
 function setup() {
   createCanvas(200, 200);
-  smooth();
 
   mover = new Mover();
 }
