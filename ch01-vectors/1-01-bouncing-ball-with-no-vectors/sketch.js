@@ -5,8 +5,6 @@ let ySpeed = 3.3;
 
 function setup() {
   createCanvas(200, 200);
-  smooth();
-  // background(255);
 }
 
 function draw() {
@@ -18,7 +16,7 @@ function draw() {
   if (x > width || x < 0) {
     xSpeed = xSpeed * -1;
   }
-  if (y > width || y < 0) {
+  if (y > height || y < 0) {
     ySpeed = ySpeed * -1;
   }
 
