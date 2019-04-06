@@ -3,7 +3,6 @@ let velocity;
 
 function setup() {
   createCanvas(200, 200);
-  smooth();
   position = createVector(100, 100);
   velocity = createVector(2.5, 5);
 }
@@ -16,7 +15,7 @@ function draw() {
   if (position.x > width || position.x < 0) {
     velocity.x = velocity.x * -1;
   }
-  if (position.y > width || position.y < 0) {
+  if (position.y > height || position.y < 0) {
     velocity.y = velocity.y * -1;
   }
 
