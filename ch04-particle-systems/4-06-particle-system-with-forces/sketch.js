@@ -9,9 +9,10 @@ function setup() {
 function draw() {
   background(255);
 
+  particleSystem.addParticle();
+
   let gravity = createVector(0, 0.1);
   particleSystem.applyForce(gravity);
 
-  particleSystem.addParticle();
   particleSystem.run();
 }
