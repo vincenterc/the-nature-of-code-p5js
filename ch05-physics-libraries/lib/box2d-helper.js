@@ -41,9 +41,10 @@ var scaleToPixels = function(a, b) {
 // -----------------------------------------------------------------------------
 
 var createWorld = function() {
-  var worldAABB = new box2d.b2AABB();
-  worldAABB.lowerBound.SetXY(-this.bounds, -this.bounds);
-  worldAABB.upperBound.SetXY(this.bounds, this.bounds);
+  // var worldAABB = new box2d.b2AABB();
+  // worldAABB.lowerBound.SetXY(-this.bounds, -this.bounds);
+  // worldAABB.upperBound.SetXY(this.bounds, this.bounds);
+
   var gravity = new box2d.b2Vec2(0, 10);
   var doSleep = true;
 

@@ -24,7 +24,7 @@ class Box {
 
   display() {
     let pos = scaleToPixels(this.body.GetPosition());
-    let a = this.body.GetAngleRadians();
+    let a = this.body.GetAngle();
 
     push();
     translate(pos.x, pos.y);
