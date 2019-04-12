@@ -28,6 +28,4 @@ function draw() {
     p.display();
     return !p.done();
   });
-
-  console.log(particles.length);
 }
