@@ -28,7 +28,7 @@ function draw() {
   noStroke();
   fill(0);
   text(
-    "'p' to display or hide particles/n'c' to display or hide connections/n'n' for new graph",
+    "'p' to display or hide particles\n'c' to display or hide connections\n'n' for new graph",
     10,
     20
   );
